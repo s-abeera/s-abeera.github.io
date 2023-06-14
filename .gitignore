@@ -53,6 +53,6 @@ pip-delete-this-directory.txt
 *.spec
 
 #environment
-.venv/
-.env
+*.venv/
+*.env
 venv/
