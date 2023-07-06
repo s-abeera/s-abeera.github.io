@@ -26,7 +26,8 @@ body {
   --color-white: #fff;
   --color-silver: rgba(182, 182, 182, 0.49);
   --color-burnt-orange: #782411bd;
-
+  --color-orange: #d14628;
+  
   /* Paddings */
   --padding-base: 16px;
   --padding-29xl: 48px;

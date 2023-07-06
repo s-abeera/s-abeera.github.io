@@ -30,8 +30,24 @@
       }
     </style>
   </head>
+  
   <body>
     <div class="desktop-3">
+      <div class="nav-bar">
+        <img class="nav-bar-child" alt="" src="public/rectangle-1.svg" />
+
+        <div class="home-parent">
+          <a href="index.html" class="button">Home</a>
+          <a href="projects.html" class="button">Projects</a>
+          <a href="research.html" class="button">Research</a>
+          <a href="resume.html" class="button">Resume</a>
+          <a href="contact.html" class="button">Contact</a>
+        </div>
+        <div class="v-parent">
+          <b class="v">V</b>
+          <b class="v1">V</b>
+        </div>
+      </div>
       <div class="desktop-3-child"></div>
       <div class="made-by-syeda">
         Made by Syeda Abeera Amir — Copyright 2023
@@ -215,12 +231,19 @@
             <img class="arrow-btn-child" alt="" src="public/arrow-1.svg" />
           </div>
           <b class="about-me">About me</b>
-          <div class="my-name-is">My name is Abeera. I am a senior at Minerva University, studying Computational Sciences and Social 
-            Sciences. I am particularly interested in cognitive neuroscience and machine learning and hope to do 
-            interdisciplinary research in neuroscience and machine learning to develop 
-            flexible and robust computational models for learning. 
-            I am also excited to learn more about how the brain works to translate into a set of intersecting
-            and dynamic behavior. <html lang="en">
+          <div class="my-name-is"> Hi! My name is Abeera, I'm a senior at Minerva University, 
+            where I am currently pursuing a degree in Computational Sciences and Social Sciences. 
+            My journey has been largely influenced by my profound interest in cognitive neuroscience and 
+            machine learning, two fields that I believe hold the potential to inform us deeply about intelligence
+            and behavior.
+            <br />
+            My passion lies in the intersection of these disciplines, where I aspire to conduct interdisciplinary 
+            research. My ultimate goal is to develop robust and flexible computational models that can mimic and 
+            enhance human learning processes. 
+            <br />
+            My academic journey is driven by a relentless curiosity and a desire to explore the domains of cognitive 
+            neuroscience and machine learning. I am excited about the opportunities that lie ahead and am 
+            committed to making significant contributions in these fields. <html lang="en">
             <head>
               <meta charset="UTF-8">
               <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -263,23 +286,9 @@
           </div>
         </div>
       </div>
-      <div class="nav-bar">
-        <img class="nav-bar-child" alt="" src="public/rectangle-1.svg" />
-
-        <div class="home-parent">
-          <button class="home" autofocus>Home</button>
-          <button class="projects" autofocus>Projects</button>
-          <button class="resume" autofocus>Resume</button>
-          <button class="contact" autofocus>Contact</button>
-        </div>
-        <div class="v-parent">
-          <b class="v">V</b>
-          <b class="v1">V</b>
-        </div>
-      </div>
     </div>
 
-    <script>
+    <!-- <script>
       var scrollAnimElements = document.querySelectorAll("[data-animate-on-scroll]");
       var observer = new IntersectionObserver(
         (entries) => {
@@ -299,6 +308,6 @@
       for (let i = 0; i < scrollAnimElements.length; i++) {
         observer.observe(scrollAnimElements[i]);
       }
-      </script>
+      </script> -->
   </body>
 </html>
