@@ -787,7 +787,11 @@
   max-width: 100%;
   max-height: 100%;
 }
-.button {
+#home,
+#projects,
+#research,
+#resume,
+#contact {
   cursor: pointer;
   border: 0;
   padding: 0;
@@ -804,7 +808,11 @@
 
 }
 
-.button:hover {
+#home:hover,
+#projects:hover,
+#research:hover,
+#resume:hover,
+#contact:hover {
   color: var(--color-orange);
 }
 
