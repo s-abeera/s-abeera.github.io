@@ -688,7 +688,7 @@
 }
 .background {
   top: 20px;
-  left: calc(50% - 618.5px);
+  left: calc(50% - 630px);
   background-color: #231e1e;
   filter: blur(4px);
   border: 1px solid #413e3e;
@@ -767,8 +767,7 @@
   height: 569px;
   overflow: hidden;
 }
-.first-box,
-.nav-bar-child {
+.first-box {
   position: absolute;
   left: calc(50% - 619px);
   overflow: hidden;
@@ -780,89 +779,7 @@
   font-size: var(--font-size-lg);
   color: var(--color-white);
 }
-.nav-bar-child {
-  height: 100%;
-  width: 101.13%;
-  top: 0;
-  right: -1.13%;
-  bottom: 0;
-  max-width: 100%;
-  max-height: 100%;
-}
-#home,
-#projects,
-#research,
-#resume,
-#contact {
-  cursor: pointer;
-  border: 0;
-  padding: 0;
-  background-color: transparent;
-  font-size: var(--font-size-lg);
-  letter-spacing: -0.5px;
-  font-weight: 700;
-  font-family: var(--font-manrope);
-  color: var(--color-gainsboro);
-  text-align: left;
-  display: inline-block;
-  border-color: transparent;
-  text-decoration: none;
 
-}
-
-#home:hover,
-#projects:hover,
-#research:hover,
-#resume:hover,
-#contact:hover {
-  color: var(--color-orange);
-}
-
-.home-parent {
-  overflow: hidden;
-  display: flex;
-  justify-content: space-between; 
-  width: 424px;
-  left: calc(50% - 212px);
-  position: absolute;
-  height: 80px;
-  align-items: center;
-
-}
-.v,
-.v1 {
-  position: absolute;
-  top: 11.46px;
-  left: calc(50% - 14.5px);
-  letter-spacing: -0.74px;
-  display: inline-block;
-  width: 23px;
-  height: 40.54px;
-}
-.v1 {
-  top: 40.54px;
-  left: calc(50% + 14.5px);
-  transform: rotate(-180deg);
-  transform-origin: 0 0;
-}
-.nav-bar,
-.v-parent {
-  position: fixed;
-  top: 10px;
-  left: 96px;
-  width: 29px;
-  height: 52px;
-  overflow: hidden;
-  z-index: 999;
-}
-.nav-bar {
-  top: 0;
-  left: calc(50% - 619px);
-  width: 1238px;
-  height: 80px;
-  font-size: 35.38px;
-  font-family: var(--font-thicccboi);
-}
 .desktop-3 {
   position: relative;
   background-color: #202020;
