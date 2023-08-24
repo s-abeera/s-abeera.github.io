@@ -42,7 +42,7 @@
   #research:hover,
   #resume:hover,
   #contact:hover {
-    color: var(--color-orange);
+    color: #ea4807;
   }
   
   .home-parent {
